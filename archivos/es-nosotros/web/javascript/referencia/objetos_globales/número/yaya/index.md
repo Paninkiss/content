@@ -1,4 +1,10 @@
----
+---function sanitize(x) {
+  if (isNaN(x)) {
+    return Number.NaN;
+  }
+  return x;
+}
+
 title: Number.NaN
 slug: Web/JavaScript/Reference/Global_Objects/Number/NaN
 page-type: javascript-static-data-property
